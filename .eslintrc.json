@@ -19,7 +19,7 @@
       {
         "anonymous": "never",
         "named": "never",
-        "asyncArrow": "never"
+        "asyncArrow": "always"
       }
     ],
     "no-useless-constructor": "off"
