@@ -11,6 +11,17 @@
   },
   "plugins": ["@typescript-eslint"],
   "rules": {
+    "comma-dangle": ["error", "always-multiline"],
+    "quotes": ["error", "double"],
+    "semi": ["error", "always"],
+    "space-before-function-paren": [
+      "error",
+      {
+        "anonymous": "never",
+        "named": "never",
+        "asyncArrow": "never"
+      }
+    ],
     "no-useless-constructor": "off"
   }
 }
